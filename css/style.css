@@ -88,12 +88,15 @@ body {
             flex-direction: column;
             font-size: 1.0625rem;
             gap: .125rem; }
-            .container .feedback .feedback__comments .comments .comments--person .person span:nth-child(1) {
+            .container .feedback .feedback__comments .comments .comments--person .person h2 {
               color: white;
-              font-weight: 700; }
-            .container .feedback .feedback__comments .comments .comments--person .person span:nth-child(2) {
+              font-weight: 700;
+              margin: 0rem;
+              font-size: 1.125rem; }
+            .container .feedback .feedback__comments .comments .comments--person .person h4 {
               color: #a65999;
-              font-weight: 400; }
+              font-weight: 400;
+              margin: 0rem; }
         .container .feedback .feedback__comments .comments .comments--text {
           color: #f7f2f7;
           line-height: 1.375rem;

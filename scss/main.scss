@@ -114,13 +114,16 @@ body{
             flex-direction: column;
             font-size: 1.0625rem;
             gap: .125rem;
-            span:nth-child(1){
+            h2{
               color: $white;
               font-weight: 700;
+              margin: 0rem;
+              font-size: 1.125rem;
             }
-            span:nth-child(2){
+            h4{
               color: $grayish-magenta;
               font-weight: 400;
+              margin: 0rem;
             }
           }  
         }
