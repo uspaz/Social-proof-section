@@ -93,7 +93,7 @@ body {
               font-weight: 700;
               margin: 0rem;
               font-size: 1.125rem; }
-            .container .feedback .feedback__comments .comments .comments--person .person h4 {
+            .container .feedback .feedback__comments .comments .comments--person .person span {
               color: #a65999;
               font-weight: 400;
               margin: 0rem; }
