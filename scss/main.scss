@@ -41,6 +41,7 @@ body{
     .feedback__content{
       grid-column: 1 / 2;
       grid-row: 1 / 2;
+      animation: fadeInRight 1.5s;
       .content--title{
         width: 80%;
         font-size: 3.5rem;
@@ -84,9 +85,15 @@ body{
       }
       .first{
         margin-right: 7rem;
+        animation: fadeInLeft 1s;
+
       }
       .second{
         margin-right: 3.5rem;
+        animation: fadeInLeft 1.5s;
+      }
+      .third{
+        animation: fadeInLeft 1.8s;
       }
     }
     .feedback__comments{
@@ -96,6 +103,7 @@ body{
       align-items: center;
       gap: 2rem;
       margin-top: 1.875rem;
+      
       .comments{
         width: 20.625rem;
         background-color: $dark-magenta;
@@ -133,11 +141,16 @@ body{
           padding-right: 1.25rem ;
         }
       }
+      .first{
+        animation: fadeInUp 1s;
+      }
       .second{
         margin-top: 2.5rem;
+        animation: fadeInUp 1.5s;
       }
       .third{
         margin-top: 5.5rem;
+        animation: fadeInUp 1.8s;
       }
     }
   }
@@ -215,5 +228,38 @@ body{
         }
       }
     }
+  }
+}
+  // Animations
+@keyframes fadeInUp{
+  0%{
+    transform: translateY(5rem);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInRight {
+  0%{
+    transform: translateX(-5rem);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInLeft {
+  0%{
+    transform: translateX(5rem);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0);
+    opacity: 1;
   }
 }
